@@ -1,0 +1,58 @@
+// My Settings
+body{
+    font-family: 'Century Gothic', sans-serif;
+    overflow-x: hidden;
+    margin-left: -2px;
+}
+p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+// Main Code
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // 1) Header
+    &-header{
+        width: 100%;
+        height: 50px;
+        border: 1px solid red;
+    }
+    &-main{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // 2) Left panel
+        &-chatMembers{
+            overflow: auto;
+            width: 200px;
+            height: 100%;
+            border: 1px solid orange;
+        }
+        // 3) Right panel
+        &-chatMessages{
+            overflow: auto;
+            width: 100%;
+            height: 100%;
+            border: 1px solid rebeccapurple;
+        }
+    }
+    // 4) Footer
+    &-footer{
+        width: 100%;
+        height: 100px;
+        border: 1px solid green;
+    }
+}

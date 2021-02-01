@@ -1,0 +1,67 @@
+body {
+  font-family: 'Century Gothic', sans-serif;
+  overflow-x: hidden;
+  margin-left: -2px;
+}
+p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section-header {
+  width: 100%;
+  height: 50px;
+  border: 1px solid red;
+}
+.section-main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-main-chatMembers {
+  overflow: auto;
+  width: 200px;
+  height: 100%;
+  border: 1px solid orange;
+}
+.section-main-chatMessages {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rebeccapurple;
+}
+.section-footer {
+  width: 100%;
+  height: 100px;
+  border: 1px solid green;
+}
